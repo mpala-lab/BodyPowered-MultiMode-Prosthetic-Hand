@@ -36,4 +36,4 @@ STEP files may be included for cross-platform compatibility.
 
 ## Organization
 
-The parts for the mechanism are all integrated within the single .step file titled 'Shifting Gearbox V12'.
+All parts for the mechanism are all integrated within the single .step file titled 'Shifting Gearbox V12'.
