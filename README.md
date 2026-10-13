@@ -2,6 +2,8 @@
 
 Open-source CAD for a low-cost, body-powered prosthetic hand with a gear-based selective clutch that routes a single input cable to multiple functional modes. It accompanies our Humanoids 2026 paper, "Open-Source Body-Powered Prosthesis with a Selective Gear-Based Clutch Mechanism for Switching Grasp Types."This repository contains the CAD models for a body-powered, underactuated prosthetic hand featuring a gear-based selective clutch for discrete mechanical mode switching. 
 
+images/overview.png
+
 ## Modes
 
 A sliding gear selects one output at a time. Inactive outputs are locked by fixed sector gears.
