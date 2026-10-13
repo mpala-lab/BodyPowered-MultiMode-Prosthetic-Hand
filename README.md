@@ -46,4 +46,5 @@ Custom parts are FDM-printed in PLA or PETG, and fingerpads are cast in silicone
 ```
 
 ## License
-![License](LICENSE.txt)
+
+[License](LICENSE.txt)
