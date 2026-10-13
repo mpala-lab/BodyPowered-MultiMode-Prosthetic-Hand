@@ -1,39 +1,46 @@
 # BodyPowered-MultiMode-Prosthetic-Hand
 
-This repository contains the CAD models for a body-powered, underactuated prosthetic hand featuring a gear-based selective clutch for discrete mechanical mode switching. It accompanies the IROS 2026 submission on the body-powered prosthesis with a selective gear-based clutch mechanism.
+Open-source CAD for a low-cost, body-powered prosthetic hand with a gear-based selective clutch that routes a single input cable to multiple functional modes. It accompanies our Humanoids 2026 paper, "Open-Source Body-Powered Prosthesis with a Selective Gear-Based Clutch Mechanism for Switching Grasp Types."This repository contains the CAD models for a body-powered, underactuated prosthetic hand featuring a gear-based selective clutch for discrete mechanical mode switching. 
 
-The design enables a single tendon-driven input to mechanically actuate multiple functional modes, including:
-- Global finger flexion/extension
-- Four-finger abduction/adduction
-- Thumb abduction/adduction
-- Neutral/rest configuration
+## Modes
 
-All mode transitions are achieved through purely mechanical selection.
+A sliding gear selects one output at a time. Inactive outputs are locked by fixed sector gears.
 
----
+- Finger flexion/extension (all fingers)
+- Finger adduction/abduction (four fingers)
+- Thumb opposition
+- Neutral (rest)
 
-## Design Overview
+## Key Specifications
 
-The prosthetic hand integrates:
+| | |
+|---|---|
+| Input | Single body-powered cable |
+| Differentials | Two whiffletrees |
+| Hand mass | 331 g |
+| Hardware cost | $138 (excluding filament and silicone) |
+| Materials | PLA, PETG, cast silicone (Smooth-On Dragonskin 20) |
 
-- A gear-based selective mechanical clutch for mode routing
-- Dual internal differential mechanisms for compliant force distribution
-- Tendon-driven actuation architecture
-- Waterproof structural components for durability
+## Repository
 
-All files are provided for research and educational purposes.
+- `Gear-Based Clutch Mechanism/`: clutch CAD. The full assembly is in `Shifting Gearbox V12.step`.
+- `Underactuated Prosthetic Hand/`: hand CAD.
 
----
+CAD was created in SolidWorks 2024. STEP files are provided for other CAD tools.
 
-## Software
+## Fabrication
 
-Primary CAD software used:
-- SolidWorks 2024
+Custom parts are FDM-printed in PLA or PETG, and fingerpads are cast in silicone using printed molds. All other parts (shafts, pins, fasteners, needle roller bearings) are off-the-shelf.
 
-STEP files may be included for cross-platform compatibility.
+## Citation
 
----
+```bibtex
+@inproceedings{kontoudis2026bodypowered,
+  title     = {[paper title]},
+  author    = {[authors]},
+  booktitle = {IEEE-RAS International Conference on Humanoid Robots (Humanoids)},
+  year      = {2026}
+}
+```
 
-## Organization
-
-All parts for the mechanism are all integrated within the single .step file titled 'Shifting Gearbox V12'.
+## License
