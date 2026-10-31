@@ -1,6 +1,8 @@
 # BodyPowered-MultiMode-Prosthetic-Hand
 
-Open-source CAD for a low-cost, body-powered prosthetic hand with a gear-based selective clutch that routes a single input cable to multiple functional modes. It accompanies our Humanoids 2026 paper, "Open-Source Body-Powered Prosthesis with a Selective Gear-Based Clutch Mechanism for Switching Grasp Types." This repository contains the CAD models for a body-powered, underactuated prosthetic hand featuring a gear-based selective clutch for discrete mechanical mode switching. 
+Open-source CAD for a low-cost, body-powered prosthetic hand with a gear-based selective clutch that routes a single input cable to multiple functional modes. It accompanies our Humanoids 2026 paper, "Open-Source Body-Powered Prosthesis with a Selective Gear-Based Clutch Mechanism for Switching Grasp Types." [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://www.georgekontoudis.com/publications/Humanoids26_Pacic_BodyPoweredProsthesis.pdf)
+
+This repository contains the CAD models for a body-powered, underactuated prosthetic hand featuring a gear-based selective clutch for discrete mechanical mode switching. 
 
 <img width="1103" height="657" alt="body-powered_system" src="https://github.com/user-attachments/assets/56eba556-0def-4cfb-8066-6da465bd0b91" />
 
